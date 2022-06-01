@@ -1,0 +1,23 @@
+.challenge{
+  text-align: center;
+  color: red;
+}
+
+
+.challengebox{
+  margin: 3% auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid yellow;
+  width: 80%;
+  height: 50vh;
+  background-color: orange;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 812px) {
+  .challengebox{
+    box-sizing: border-box;
+    width: 80%;
+  }
+}
