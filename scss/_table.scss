@@ -7,6 +7,16 @@ table{
     border: 2px solid yellow;
   }
 }
+
+table:hover{
+  background: yellow;
+  color: lime;
+  border: 4px dashed lime;
+  td:hover{
+    border: 4px dashed lime;
+  }
+  
+}
 .detailsTable{
   display: flex;
   justify-content: center;
