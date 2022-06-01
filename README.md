@@ -1,4 +1,6 @@
-# Title: Duo Time
+# Duo Time
+
+Wanna Know more about Wendy? Check [here](https://glinchflash.github.io/Duo-Time/)!
 
 - Repository: duo-time
 - Type of Challenge: Learning Challenge
