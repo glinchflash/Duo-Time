@@ -1,0 +1,16 @@
+footer{
+  background:  rgba(255,165,0,0.4);
+  color: yellow;
+  font-size: xx-large;
+  .footer{
+    display: flex;
+    .copy{
+      margin-left: 1.5%;
+    }
+    .link{
+      position: absolute;
+      right: 1.5%;
+    }
+  }
+
+}
