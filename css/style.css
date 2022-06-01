@@ -104,6 +104,11 @@ footer a:hover {
   color: red;
 }
 
+@media only screen and (max-width: 600px) {
+  footer {
+    display: block;
+  }
+}
 .funfacts {
   margin: auto;
   text-align: center;
@@ -115,6 +120,12 @@ footer a:hover {
 }
 .funfacts li {
   text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .detailsTable {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

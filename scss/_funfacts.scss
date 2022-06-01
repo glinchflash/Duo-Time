@@ -10,3 +10,9 @@
     text-align: left;
   }
 }
+@media only screen and (max-width: 600px) {
+  .detailsTable{
+    display: block;
+  }
+
+}
