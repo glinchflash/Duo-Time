@@ -71,11 +71,12 @@ ___
 
 ### Nice-to-have features progress
 
-- As many fun facts you can think of!
+- -[x] As many fun facts you can think of!
 - -[x] SEO is good!
 - - [x] Semantically correct
 - CSS framework (bootstrap, tailwind, ...)
 - Link to your partners page
 - QR code linking to your / your partners page
+    - - [x] link to my page (about wendy)
     - we can print these and hang them around the campus!
 ---

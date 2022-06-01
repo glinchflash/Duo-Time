@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-image: url("../images/background.jpg");
   background-size: cover;
@@ -32,6 +36,8 @@ table td {
 
 .detailsTable {
   display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .picture {
@@ -70,19 +76,45 @@ table td {
   }
 }
 footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
   background: rgba(255, 165, 0, 0.4);
   color: yellow;
   font-size: xx-large;
 }
-footer .footer {
-  display: flex;
+footer .qrcode {
+  width: 7%;
+  height: 7%;
+  margin: 2% auto auto;
 }
-footer .footer .copy {
-  margin-left: 1.5%;
+footer .copy {
+  margin: auto;
 }
-footer .footer .link {
-  position: absolute;
-  right: 1.5%;
+footer .topLink {
+  margin: auto;
+}
+footer .link {
+  margin: auto;
+}
+footer a {
+  color: yellow;
+}
+footer a:hover {
+  color: red;
+}
+
+.funfacts {
+  margin: auto;
+  text-align: center;
+  background-color: darkorange;
+  border: 4px solid yellow;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
+.funfacts li {
+  text-align: left;
 }
 
 /*# sourceMappingURL=style.css.map */
