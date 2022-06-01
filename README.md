@@ -75,7 +75,7 @@ ___
 - -[x] SEO is good!
 - - [x] Semantically correct
 - CSS framework (bootstrap, tailwind, ...)
-- Link to your partners page
+- - [x] (placeholder link atm) Link to your partners page
 - QR code linking to your / your partners page
     - - [x] link to my page (about wendy)
     - we can print these and hang them around the campus!
