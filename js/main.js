@@ -1,4 +1,6 @@
+//challenge//
 const challenge = document.querySelector(".challengebox");
+
 function evenNumbers() {
     for (let i = 1; i < 100; i++) {
         if (i % 2 === 0) {
@@ -6,17 +8,48 @@ function evenNumbers() {
             span.innerText = " " + i + " ";
             challenge.appendChild(span);
             span.style.lineHeight = i * 2 + "px";
-            span.style.height= "100px";
+            span.style.height = "100px";
             span.style.marginRight = "5px";
+            span.style.color = "white";
+            span.style.fontSize = "19px";
+            span.style.fontWeight = "bold";
         }
     }
 }
+function dot() {
+    for (i = 0; i <= 4; i++) {
+        let dot = document.createElement("div");
+
+        challenge.appendChild(dot);
+        let height = dot.style.height = "50px";
+        let width = dot.style.width = "50px";
+        dot.style.borderRadius = "50%";
+        dot.style.backgroundColor = "white";
+        dot.style.position = "absolute";
+        dot.style.marginTop = "70px";
+        console.log(dot);
+
+        dot.addEventListener("click", function ripple() {
+            dot.style.position = "absolute";
+            dot.style.animation = "ripple 5s infinite";
+            dot.style.borderRadius = "100%";
+            dot.style.border = "none";
+            dot.style.boxShadow = "inset 10px 10px 20px #a5a7a9, inset -10px -10px 20px black";
+            dot.style.transition = "0.33s ease-in all";
+            dot.style.opacity = "0.5";
+        })
+    }
+}
+
+
+dot();
 evenNumbers()
-const challengeBox = document.querySelector(".challengebox");
-challengeBox.style.background = "white";
-challengeBox.style.color = "black";
-challengeBox.style.borderColor = "black";
-challengeBox.style.display= "flex";
+
+//styling//
+challenge.style.backgroundImage = "url(../img/challenge.jpg)";
+challenge.style.color = "black";
+challenge.style.borderColor = "black";
+challenge.style.display = "flex";
 
 const header = document.getElementById("top");
 header.style.backgroundColor = "black";
