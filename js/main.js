@@ -27,7 +27,7 @@ function dot() {
         dot.style.backgroundColor = "white";
         dot.style.position = "absolute";
         dot.style.marginTop = "70px";
-        console.log(dot);
+        console.log(`${"dot:nth-child(3)"}`);
 
         dot.addEventListener("click", function ripple() {
             dot.style.position = "absolute";
