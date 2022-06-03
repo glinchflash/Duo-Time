@@ -46,7 +46,7 @@ dot();
 evenNumbers()
 
 //styling//
-challenge.style.backgroundImage = "url(../img/challenge.jpg)";
+challenge.style.backgroundImage = "url(./img/challenge.jpg)";
 challenge.style.color = "black";
 challenge.style.borderColor = "black";
 challenge.style.display = "flex";
